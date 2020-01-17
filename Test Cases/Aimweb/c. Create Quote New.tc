@@ -3,52 +3,55 @@
    <description></description>
    <name>c. Create Quote New</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Setup
+Header
+Details
+Quote created is &quot; + OUT_QUOTE_ID</comment>
    <testCaseGuid>3a843aad-041a-4205-9900-dff46a7d2ecc</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Aimweb/QuoteHeaderData').getValue('QuoteName', 1)</defaultValue>
       <description></description>
       <id>877d2a1f-e701-4633-b44e-a49f6813ac4b</id>
       <masked>false</masked>
       <name>IN_QUOTE_NAME</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Aimweb/QuoteHeaderData').getValue('TerritoryNumber', 1)</defaultValue>
       <description></description>
       <id>71ccaed1-766f-4511-ad6f-d98cae449c16</id>
       <masked>false</masked>
       <name>IN_TERRITORY_NUMBER</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Aimweb/QuoteHeaderData').getValue('CustomerId', 1)</defaultValue>
       <description></description>
       <id>8c68af7a-d718-4c22-835b-82c824890c11</id>
       <masked>false</masked>
       <name>IN_CUSTOMER_ID</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Aimweb/QuoteHeaderData').getValue('DiscountAmount', 1)</defaultValue>
       <description></description>
       <id>13a33134-0d10-4212-9a9a-3fc949d5aa87</id>
       <masked>false</masked>
       <name>IN_DISCOUNT_AMOUNT</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Aimweb/QuoteHeaderData').getValue('DiscountReason', 1)</defaultValue>
       <description></description>
       <id>ead962b2-372c-4e5e-bf9d-265e97b53930</id>
       <masked>false</masked>
       <name>IN_DISCOUNT_REASON</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('AIMWeb/DEV_JP/QuoteSmallTabNames')</defaultValue>
+      <defaultValue>findTestData('Aimweb/QuoteSmallTabNames')</defaultValue>
       <description></description>
       <id>2ce9b2dd-27bf-4bdb-bf45-ac3d164034a3</id>
       <masked>false</masked>
       <name>IN_TAB_NAMES</name>
    </variable>
    <variable>
-      <defaultValue>'AIMWeb/DEV_JP/QuoteSmallDataTab'</defaultValue>
+      <defaultValue>'Aimweb/QuoteSmallDataTab'</defaultValue>
       <description></description>
       <id>041f4531-85c3-4b21-9dde-915a3f1996c0</id>
       <masked>false</masked>

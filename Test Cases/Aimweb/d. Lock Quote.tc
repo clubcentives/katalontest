@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5851c082-84f6-4e98-bf64-1828aa8d4f25</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>369d863b-6e03-42a4-925a-994e129b6559</id>
+      <masked>false</masked>
+      <name>IN_QUOTE_ID</name>
+   </variable>
 </TestCaseEntity>

@@ -3,13 +3,6 @@
    <description></description>
    <name>b. Home Page</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Element appears to have been found</comment>
    <testCaseGuid>aabc3430-9cd1-445e-bccd-4bbd4eaeca3f</testCaseGuid>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>839ee5b2-9943-4fe9-a836-9b9412b2538f</id>
-      <masked>false</masked>
-      <name>variable</name>
-   </variable>
 </TestCaseEntity>

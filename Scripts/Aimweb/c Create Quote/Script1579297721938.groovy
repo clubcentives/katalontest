@@ -22,11 +22,11 @@ CustomKeywords.'mya.Lib.openURL'(GlobalVariable.GLOBAL_URL_AIMWEB + '/quote')
 
 WebUI.comment('Header')
 
-WebUI.setText(findTestObject('Object Repository/AIMWeb Quote Page/QuoteNameField'), IN_QUOTE_NAME)
+WebUI.setText(findTestObject('AIMWeb Quote Page/QuoteNameField'), IN_QUOTE_NAME)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/AIMWeb Quote Page/TerritorySelect'), IN_TERRITORY_NUMBER, true)
+WebUI.selectOptionByValue(findTestObject('AIMWeb Quote Page/TerritorySelect'), IN_TERRITORY_NUMBER, true)
 
-WebUI.setText(findTestObject('Object Repository/AIMWeb Quote Page/CustomerNameField'), IN_CUSTOMER_ID)
+WebUI.setText(findTestObject('AIMWeb Quote Page/CustomerNameField'), IN_CUSTOMER_ID)
 
 WebUI.delay(2)
 
@@ -34,11 +34,11 @@ WebUI.click(findTestObject('AIMWeb Quote Page/Customer20070012Link'))
 
 WebUI.delay(2)
 
-WebUI.selectOptionByIndex(findTestObject('Object Repository/AIMWeb Quote Page/CustomerContactField'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('AIMWeb Quote Page/CustomerContactField'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/AIMWeb Quote Page/DiscountAmountField'), IN_DISCOUNT_AMOUNT)
+WebUI.setText(findTestObject('AIMWeb Quote Page/DiscountAmountField'), IN_DISCOUNT_AMOUNT)
 
-WebUI.setText(findTestObject('Object Repository/AIMWeb Quote Page/DiscountReasonField'), IN_DISCOUNT_REASON)
+WebUI.setText(findTestObject('AIMWeb Quote Page/DiscountReasonField'), IN_DISCOUNT_REASON)
 
 WebUI.comment('Details')
 
@@ -94,9 +94,9 @@ WebUI.click(findTestObject('AIMWeb Quote Page/ButtonSaveQuote'))
 
 WebUI.waitForJQueryLoad(10)
 
-not_run: WebUI.verifyElementPresent(findTestObject('Page_AIMWeb Online Quoting System - CreateE_f660ca/QuoteIDField'), 8)
+not_run: WebUI.verifyElementPresent(findTestObject('AIMWeb Quote Page/QuoteIDField'), 8)
 
-not_run: OUT_QUOTE_ID = WebUI.getText(findTestObject('Object Repository/Page_AIMWeb Online Quoting System - CreateE_f660ca/QuoteIDField'))
+not_run: OUT_QUOTE_ID = WebUI.getText(findTestObject('AIMWeb Quote Page/QuoteIDField'))
 
 not_run: assert OUT_QUOTE_ID != ''
 

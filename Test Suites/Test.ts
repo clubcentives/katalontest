@@ -15,18 +15,30 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Aimweb/a. Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4419250e-e225-4045-88a0-81d35a2e19f2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Aimweb/b. Home Page</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>839ee5b2-9943-4fe9-a836-9b9412b2538f</variableId>
+         <variableId>174abada-c466-49cd-a741-3eb80e35ceae</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e8804e65-d012-49cd-ac92-b2bbded02fe4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a307884e-c008-406f-bc78-3321d1baea3b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>65d1f273-1785-42a2-9479-a8137d114bad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Aimweb/b. Home Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b7dd05ab-140f-4fe3-9d63-3a3b220c7f99</guid>
@@ -85,13 +97,19 @@
    <testCaseLink>
       <guid>191727a4-41ef-4fbf-b511-7c39378cf600</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Aimweb/d. Lock Quote</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>369d863b-6e03-42a4-925a-994e129b6559</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>e5c6dab6-7c25-4809-b15a-b689febce904</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Aimweb/e. Close</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

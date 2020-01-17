@@ -3,6 +3,28 @@
    <description></description>
    <name>a. Login</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Successfully logged in as user&quot; + RETURN_USER_NAME
+This is a test comment</comment>
    <testCaseGuid>1a9e60d2-dbcd-4970-b46a-05731cc0d8db</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.GLOBAL_ADMIN_USER_ID</defaultValue>
+      <description></description>
+      <id>174abada-c466-49cd-a741-3eb80e35ceae</id>
+      <masked>false</masked>
+      <name>IN_USER_ID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.GLOBAL_ADMIN_PASSWORD</defaultValue>
+      <description></description>
+      <id>e8804e65-d012-49cd-ac92-b2bbded02fe4</id>
+      <masked>false</masked>
+      <name>IN_PASSWORD</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a307884e-c008-406f-bc78-3321d1baea3b</id>
+      <masked>false</masked>
+      <name>OUT_USER_NAME</name>
+   </variable>
 </TestCaseEntity>

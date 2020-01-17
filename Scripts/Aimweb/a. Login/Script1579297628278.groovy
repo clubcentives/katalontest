@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if (!(PARAM_USER_ID) || !(PARAM_PASSWORD)) {
+if (!(IN_USER_ID) || !(IN_PASSWORD)) {
     throw new com.kms.katalon.core.exception.StepFailedException('LoginAs: Missing required parameter value. Either user id or password is blank. They are required.')
 }
 
@@ -24,15 +24,15 @@ CustomKeywords.'mya.Lib.openURL'(GlobalVariable.GLOBAL_URL_MYA + '/account/login
 
 WebUI.deleteAllCookies()
 
-WebUI.setText(findTestObject('Object Repository/myAesculap Login/User ID Field'), PARAM_USER_ID)
+WebUI.setText(findTestObject('myAesculap Login/User ID Field'), IN_USER_ID)
 
-WebUI.setText(findTestObject('Object Repository/myAesculap Login/Password Field'), PARAM_PASSWORD)
+WebUI.setText(findTestObject('myAesculap Login/Password Field'), IN_PASSWORD)
 
-WebUI.click(findTestObject('Object Repository/myAesculap Login/Login Button'))
+WebUI.click(findTestObject('myAesculap Login/Login Button'))
 
 RETURN_USER_NAME = WebUI.getText(findTestObject('myAesculap Home/Header User Name'))
 
-WebUI.comment('Successfully logged in as user' + RETURN_USER_NAME)
+WebUI.comment('Successfully logged in as user' + OUT_USER_NAME)
 
 WebUI.executeJavaScript('Application.showMessage("hi there!", \'success\', false); Application.showMessage("hi there 2!", \'success\', false)', 
     [])
