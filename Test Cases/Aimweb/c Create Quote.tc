@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>c Create Quote</name>
+   <tag></tag>
+   <comment>Setup
+Header
+Details
+Quote created is &quot; + OUT_QUOTE_ID</comment>
+   <testCaseGuid>5b45a76b-11f2-41ac-a5b9-5c165a488795</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>14bf9f2d-d0dd-4904-b33f-03cf2bc27935</id>
+      <masked>false</masked>
+      <name>IN_QUOTE_NAME</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29bdeb8a-d4ad-4376-ad3d-f47476518a9b</id>
+      <masked>false</masked>
+      <name>IN_TERRITORY_NUMBER</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05413bb5-3484-4866-84a2-ce7e37e50af7</id>
+      <masked>false</masked>
+      <name>IN_CUSTOMER_ID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5221e7ce-0c57-47a6-8679-f6f72981901f</id>
+      <masked>false</masked>
+      <name>IN_DISCOUNT_AMOUNT</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ed376ba9-b0cc-4342-bcc6-d93b727f684d</id>
+      <masked>false</masked>
+      <name>IN_DISCOUNT_REASON</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('AIMWeb/DEV_JP/QuoteSmallTabNames')</defaultValue>
+      <description></description>
+      <id>fa7835d3-f6a8-4b1c-b906-da1dd1c47e96</id>
+      <masked>false</masked>
+      <name>IN_TAB_NAMES</name>
+   </variable>
+   <variable>
+      <defaultValue>'AIMWeb/DEV_JP/QuoteSmallDataTab'</defaultValue>
+      <description></description>
+      <id>eea88ee1-9e62-40cc-9b56-2e3a30ebc6fc</id>
+      <masked>false</masked>
+      <name>IN_TAB_DATA_PREFIX</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a501e2f-f716-4bd6-94f1-39b5ba458f9a</id>
+      <masked>false</masked>
+      <name>OUT_QUOTE_ID</name>
+   </variable>
+</TestCaseEntity>

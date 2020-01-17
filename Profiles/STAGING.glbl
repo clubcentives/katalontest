@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>STAGING</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jpokress@aesculap.com'</initValue>
+      <name>GLOBAL_ADMIN_USER_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sherbie'</initValue>
+      <name>GLOBAL_ADMIN_PASSWORD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jpokress@bluenoteonline.com'</initValue>
+      <name>GLOBAL_AIMWEB_SALES_USER_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sherbie'</initValue>
+      <name>GLOBAL_AIMWEB_SALES_PASSWORD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.myaesculap.com'</initValue>
+      <name>GLOBAL_URL_MYA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://test.myaesculap.com/aimweb'</initValue>
+      <name>GLOBAL_URL_AIMWEB</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
